@@ -1,0 +1,33 @@
+[
+    {
+        "id": "aa32jj887hhg55",
+        "goal": "1일 1커밋",
+        "description": "이거 못하면 앞으로 하는 일 다 안됌",
+        "isimportance": false,
+    },
+    {
+        "id": "bb32jj887hhg77",
+        "goal": "1일 1 블로그",
+        "description": "이거 못하면 앞으로 하는 일 다 안됌",
+        "isimportance": false,
+    },
+    {
+        "id": "cc32jj887hhg66",
+        "goal": "운동하기",
+        "description": "이거 못하면 앞으로 하는 일 다 안됌",
+        "isimportance": true,
+    },
+    {
+        "id": "dd32jj887hhg88",
+        "goal": "다이어트 도전!",
+        "description": "이거 못하면 앞으로 하는 일 다 안됌",
+        "isimportance": false,
+    },
+    {
+        "id": "ee32jj887hhg99",
+        "goal": "고양이 밥주기",
+        "description": "이거 못하면 앞으로 하는 일 다 안됌",
+        "isimportance": true,
+    }
+    
+]
