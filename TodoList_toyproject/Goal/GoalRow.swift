@@ -13,6 +13,11 @@ struct GoalRow: View {
     
     var body: some View {
         HStack{
+            Button(action: {}, label: {
+                Image(systemName: "circle")
+                    .foregroundColor(.gray)
+                    .opacity(0.4)
+            })
             Text(todo.goal)
             Spacer()
             if todo.isimportance {
