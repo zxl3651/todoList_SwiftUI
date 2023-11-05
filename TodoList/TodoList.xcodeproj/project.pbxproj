@@ -88,6 +88,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		712954F12AF7CF1D00C18BC4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				719D82B82AF7821400540AB3 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		712954F22AF7CF3000C18BC4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		712954F32AF7CF3700C18BC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		712954F42AF7CF5900C18BC4 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				719D82BA2AF7821500540AB3 /* Assets.xcassets */,
+				719D82FB2AF7848D00540AB3 /* GoogleService-Info.plist */,
+				719D82B62AF7821400540AB3 /* TodoListApp.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		719D82AA2AF7821400540AB3 = {
 			isa = PBXGroup;
 			children = (
@@ -107,10 +139,10 @@
 		719D82B52AF7821400540AB3 /* TodoList */ = {
 			isa = PBXGroup;
 			children = (
-				719D82FB2AF7848D00540AB3 /* GoogleService-Info.plist */,
-				719D82B62AF7821400540AB3 /* TodoListApp.swift */,
-				719D82B82AF7821400540AB3 /* ContentView.swift */,
-				719D82BA2AF7821500540AB3 /* Assets.xcassets */,
+				712954F42AF7CF5900C18BC4 /* Other */,
+				712954F32AF7CF3700C18BC4 /* Models */,
+				712954F22AF7CF3000C18BC4 /* ViewModels */,
+				712954F12AF7CF1D00C18BC4 /* Views */,
 				719D82BC2AF7821500540AB3 /* Preview Content */,
 			);
 			path = TodoList;
