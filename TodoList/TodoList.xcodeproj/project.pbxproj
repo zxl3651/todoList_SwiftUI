@@ -130,11 +130,11 @@
 				719D82B82AF7821400540AB3 /* MainView.swift */,
 				712954F52AF7D03E00C18BC4 /* ProfileView.swift */,
 				712954FF2AF7D0AA00C18BC4 /* ToDoListView.swift */,
+				712954F72AF7D05300C18BC4 /* ToDoListItemView.swift */,
 				712954F92AF7D05900C18BC4 /* NewItemView.swift */,
 				712954FB2AF7D06100C18BC4 /* LoginView.swift */,
 				712954FD2AF7D06B00C18BC4 /* RegisterView.swift */,
 				71F298FE2AF8DADA0051767C /* TLButtonView.swift */,
-				712954F72AF7D05300C18BC4 /* ToDoListItemView.swift */,
 				712955132AF7D3A500C18BC4 /* HeaderView.swift */,
 			);
 			path = Views;
