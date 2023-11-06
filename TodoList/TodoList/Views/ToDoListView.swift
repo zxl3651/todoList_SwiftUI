@@ -26,14 +26,10 @@ struct ToDoListView: View {
                     ToDoListItemView(item: item)
                         .swipeActions{
                             Button("Delete") {
-                                Button {
-                                    // Delete
-                                    viewModel.delete(id: item.id)
-                                } label: {
-                                    Text("Delete")
-                                }
-
+                                // Delete
+                                viewModel.delete(id: item.id)
                             }
+                            .tint(.red)
                         }
                 }
                 .listStyle(PlainListStyle())
@@ -52,6 +48,7 @@ struct ToDoListView: View {
         }
     }
 }
+
 
 #Preview {
     ToDoListView(userId: "Jtr8zCLTxUXWVUcx9p3VHcaMaRr2")
