@@ -56,6 +56,7 @@
 		719D82FA2AF7834400540AB3 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 719D82F92AF7834400540AB3 /* FirebaseStorageCombine-Community */; };
 		719D82FC2AF7848D00540AB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 719D82FB2AF7848D00540AB3 /* GoogleService-Info.plist */; };
 		71F298FF2AF8DADA0051767C /* TLButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F298FE2AF8DADA0051767C /* TLButtonView.swift */; };
+		71F299012AF9007F0051767C /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F299002AF9007F0051767C /* Extenstions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		719D82BD2AF7821500540AB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		719D82FB2AF7848D00540AB3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		71F298FE2AF8DADA0051767C /* TLButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButtonView.swift; sourceTree = "<group>"; };
+		71F299002AF9007F0051767C /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 				719D82BA2AF7821500540AB3 /* Assets.xcassets */,
 				719D82FB2AF7848D00540AB3 /* GoogleService-Info.plist */,
 				719D82B62AF7821400540AB3 /* TodoListApp.swift */,
+				71F299002AF9007F0051767C /* Extenstions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				7129550E2AF7D12900C18BC4 /* LoginViewViewModel.swift in Sources */,
 				719D82B72AF7821400540AB3 /* TodoListApp.swift in Sources */,
 				712955042AF7D0CF00C18BC4 /* ToDoListItem.swift in Sources */,
+				71F299012AF9007F0051767C /* Extenstions.swift in Sources */,
 				712954FA2AF7D05900C18BC4 /* NewItemView.swift in Sources */,
 				7129550C2AF7D12200C18BC4 /* NewItemViewViewModel.swift in Sources */,
 				712955122AF7D14500C18BC4 /* ToDoListItemViewViewModel.swift in Sources */,
