@@ -7,6 +7,8 @@
 
 import FirebaseFirestore
 import FirebaseAuth
+import FirebaseStorage
+import FirebaseDatabase
 import Foundation
 
 class RegisterViewViewModel : ObservableObject {
@@ -14,8 +16,57 @@ class RegisterViewViewModel : ObservableObject {
     @Published var name : String = ""
     @Published var email : String = ""
     @Published var password : String = ""
+    @Published var imgUrl : String = ""
     
     init() {}
+    
+    func addImg() {
+        let storage = Storage.storage()
+        let storageRef = storage.reference()
+        
+        guard let imageData = UIImage(named: "AppIcon")?.jpegData(compressionQuality: 0.5) else {
+            return
+        }
+        
+        let imageRef = storageRef.child("images/AppIcon.jpg")
+        
+        imageRef.putData(imageData, metadata: nil) { error in
+            print("업로드 완료.")
+        }
+    }
+    
+    func downloadImg() {
+        let ref = Storage.storage().reference().child("images/AppIcon.jpg")
+        
+        ref.downloadURL { url, error in
+            if let error = error {
+                print("에러 발생")
+            } else {
+                self.imgUrl = url?.absoluteString ?? ""
+            }
+        }
+    }
+    
+    func deleteImg() {
+        
+        let storage = Storage.storage()
+        let storageRef = storage.reference()
+        let desertRef = storageRef.child("images/AppIcon.jpg")
+
+        // Delete the file
+        desertRef.delete { error in
+          if let error = error {
+            // Uh-oh, an error occurred!
+              print("에러 발생")
+          } else {
+            // File deleted successfully
+              print("제거 성공")
+          }
+        }
+        
+    }
+        
+
     
     func register() {
         guard validate() else {

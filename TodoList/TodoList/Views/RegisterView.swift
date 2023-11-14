@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct RegisterView: View {
     
@@ -39,6 +40,18 @@ struct RegisterView: View {
             }
             .offset(y: -50)
             
+            Button("이미지 넣기"){
+                viewModel.addImg()
+            }
+            Button("이미지 가져오기"){
+                viewModel.downloadImg()
+            }
+            KFImage(URL(string: viewModel.imgUrl))
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+            Button("이미지 삭제"){
+                viewModel.deleteImg()
+            }
             //
             Spacer()
         }
